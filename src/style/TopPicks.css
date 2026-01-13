@@ -1,0 +1,100 @@
+.top-picks-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #fff5cc;
+  color: #c28b00;
+  padding: 6px 18px;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 12px 0;
+  color: #0f172a;
+}
+
+.header p {
+  font-size: 16px;
+  color: #64748b;
+}
+
+.restaurant-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.restaurant-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 24px;
+  background: #ffffff;
+  border-radius: 999px;
+  min-width: 230px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #f1f5f9;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.tag {
+  margin-top: 4px;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.view-all-button{
+    margin: 40px auto 0;
+    display: block;
+    padding: 12px 32px;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
