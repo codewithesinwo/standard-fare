@@ -1,10 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", sans-serif;
-}
-
 .hero {
   background: linear-gradient(135deg, #ffd400 0%, #ffbb00 100%);
   padding: 24px 5%;
@@ -14,7 +7,6 @@
   flex-direction: column;
 }
 
-/* Glassmorphism Navbar */
 .navbar {
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(12px);
@@ -35,7 +27,7 @@
   font-size: 13px;
   font-weight: 600;
   color: #3b3308;
-  display: none; /* Hidden on mobile */
+  display: none; 
 }
 
 .logo{
@@ -47,7 +39,6 @@
     text-decoration: none;
 }
 
-/* Responsive Logo Text */
 .logo-text { display: none; margin-left: 10px; }
 
 @media screen and (min-width: 768px) {
@@ -70,7 +61,6 @@
 
 .login-btn:hover { transform: scale(1.05); }
 
-/* Hero Content */
 .hero-inner {
   display: flex;
   align-items: center;
@@ -157,7 +147,6 @@
   gap: 5px;
 }
 
-/* Image & Animations */
 .hero-image { 
     position: relative;
 }
@@ -200,7 +189,6 @@
   66% { transform: translate(-10px, 10px) rotate(-10deg); }
 }
 
-/* Responsive Layout */
 @media (max-width: 1024px) {
   .hero-inner { flex-direction: column; text-align: center; justify-content: center; }
   .hero-actions { justify-content: center; }

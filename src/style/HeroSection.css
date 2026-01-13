@@ -13,7 +13,7 @@
 }
 
 .hero-section-title {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 40px;
@@ -93,6 +93,28 @@
 
 .hero-section-image {
   width: 100%;
-  max-width: 420px;
+  max-width: 600px;
   transform: rotate(-8deg);
+}
+
+@media (max-width: 900px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-section-left,
+  .hero-section-right {
+    flex: none;
+  }
+
+  .hero-section-right {
+    margin-top: 40px;
+  }
+  .feature h4{
+    text-align: left;
+  }
+  .feature p{
+    text-align: left;
+  }
 }

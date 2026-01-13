@@ -14,42 +14,42 @@ const restaurants = [
   {
     name: "Halaga",
     tag: "Modern Buka",
-    logo: halaga,
+    logoImages: halaga,
   },
   {
     name: "Olourunwa Kitchen",
     tag: "Food",
-    logo: olourunwa,
+    logoImages: olourunwa,
   },
   {
     name: "Kanko",
     tag: "Buka",
-    logo: kanko,
+    logoImages: kanko,
   },
   {
     name: "The Place",
     tag: "Restaurant",
-    logo: theplace,
+    logoImages: theplace,
   },
   {
     name: "24 hours Restaurant",
     tag: "Local",
-    logo: hrs24,
+    logoImages: hrs24,
   },
   {
     name: "Chicken Republic",
     tag: "Restaurant",
-    logo: chickenRepublic,
+    logoImages: chickenRepublic,
   },
   {
     name: "Wokcity",
     tag: "Fastfood",
-    logo: wokcity,
+    logoImages: wokcity,
   },
   {
     name: "Sweet Sensation",
     tag: "Restaurant",
-    logo: sweetSensation,
+    logoImages: sweetSensation,
   },
 ];
 
@@ -65,7 +65,7 @@ const TopPicks = () => {
       <div className="restaurant-grid">
         {restaurants.map((item, index) => (
           <div className="restaurant-card" key={index}>
-            <img src={item.logo} alt={item.name} className="logo" />
+            <img src={item.logoImages} alt={item.name} className="logoImages" />
             <div className="info">
               <span className="name">{item.name}</span>
               <span className="tag">{item.tag}</span>

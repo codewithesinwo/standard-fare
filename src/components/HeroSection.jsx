@@ -1,6 +1,12 @@
 import React from "react";
 import "../style/HeroSection.css";
 import phone from "../image/phone.png";
+import { FaMapLocation } from "react-icons/fa6";
+import { GiMeal } from "react-icons/gi";
+import { FaTruck } from "react-icons/fa";
+
+
+
 
 
 const HeroSection = () => {
@@ -12,7 +18,9 @@ const HeroSection = () => {
         </h1>
 
         <div className="feature">
-          <div className="icon">📍</div>
+          <div className="icon">
+            <FaMapLocation />
+          </div>
           <div>
             <h4>Your city, your choices</h4>
             <p>
@@ -23,7 +31,9 @@ const HeroSection = () => {
         </div>
 
         <div className="feature">
-          <div className="icon">🍽️</div>
+          <div className="icon">
+            <GiMeal />
+          </div>
           <div>
             <h4>Every meal you crave</h4>
             <p>
@@ -34,7 +44,7 @@ const HeroSection = () => {
         </div>
 
         <div className="feature">
-          <div className="icon">⚡</div>
+          <div className="icon"><FaTruck/></div>
           <div>
             <h4>Fast delivery</h4>
             <p>

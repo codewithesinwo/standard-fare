@@ -1,7 +1,8 @@
 .top-picks-container {
   max-width: 1200px;
   margin: auto;
-  padding: 80px 20px;
+  /* padding: 20px 20px; */
+  margin-top: 20px;
 }
 
 .header {
@@ -56,7 +57,7 @@
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
+.logoImages {
   width: 46px;
   height: 46px;
   border-radius: 50%;
