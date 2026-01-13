@@ -27,7 +27,7 @@ const Hero = () => {
 
       <div className="hero-inner">
         <div className="hero-text">
-          <div className="badge">🔥 Hot & Fresh Delivery</div>
+          {/* <div className="badge">🔥 Hot & Fresh Delivery</div> */}
           <h1>
             Eat better. <br />
             <span>Anytime. Anywhere.</span>
@@ -44,7 +44,7 @@ const Hero = () => {
 
           <div className="hero-actions">
             <button className="primary-btn">Get Started</button>
-            <button className="secondary-btn">View Menu</button>
+            <button className="secondary-btn">Order as Guest</button>
           </div>
         </div>
 

@@ -38,6 +38,15 @@
   display: none; /* Hidden on mobile */
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
 /* Responsive Logo Text */
 .logo-text { display: none; margin-left: 10px; }
 
@@ -150,8 +159,7 @@
 
 /* Image & Animations */
 .hero-image { 
-    position: relative; 
-    /* width: 500px; */
+    position: relative;
 }
 
 .image-blob {
@@ -197,4 +205,17 @@
   .hero-inner { flex-direction: column; text-align: center; justify-content: center; }
   .hero-actions { justify-content: center; }
   .hero-image img { width: 320px; }
+  .primary-btn, .secondary-btn {
+    width: 150px;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .secondary-btn{
+    width: 150px;
+    padding: 12px 0;
+    font-size: 16px; 
+    font-weight: bold;
+  }
 }
