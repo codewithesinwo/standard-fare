@@ -99,3 +99,16 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.view-all-button:hover{
+    background-color: #1e293b;
+}
+
+@media (max-width: 768px) {
+.header h1 {
+  font-size: 35px;
+  }
+  .header p {
+    font-size: 14px;
+  }
+}
