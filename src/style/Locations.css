@@ -9,18 +9,8 @@
   margin-bottom: 50px;
 }
 
-.badge {
-  display: inline-block;
-  background: #fff3c4;
-  color: #b58b00;
-  padding: 10px 18px;
-  border-radius: 999px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
 .locations-header h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   margin: 16px 0;
   color: #0f172a;

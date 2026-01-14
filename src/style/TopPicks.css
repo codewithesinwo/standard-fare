@@ -10,16 +10,6 @@
   margin-bottom: 50px;
 }
 
-.badge {
-  display: inline-block;
-  background-color: #fff5cc;
-  color: #c28b00;
-  padding: 6px 18px;
-  border-radius: 999px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
 .header h1 {
   font-size: 44px;
   font-weight: 700;

@@ -4,3 +4,13 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+
+.badge {
+  display: inline-block;
+  background: #facc15;
+  color: #000;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: 600;
+}
