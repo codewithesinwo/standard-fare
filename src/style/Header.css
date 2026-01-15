@@ -1,0 +1,64 @@
+.navber-container {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  z-index: 1000;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.nav-actions { display: flex; align-items: center; gap: 20px; }
+
+.live-status {
+  font-size: 13px;
+  font-weight: 600;
+  color: #3b3308;
+  display: none; 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo-text { display: none; margin-left: 10px; }
+
+@media screen and (min-width: 768px) {
+  .logo-text { display: inline; }
+  .live-status { display: block; }
+}
+
+.logo-icon { font-size: 32px; color: #000; }
+
+.login-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.login-btn:hover { transform: scale(1.05); }

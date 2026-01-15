@@ -1,29 +1,15 @@
 import "../style/Hero.css";
 import foodImg from "../image/foodimg.png";
-import { SiIfood } from "react-icons/si";
 
 const Hero = () => {
   return (
     <section className="hero">
       {/* Dynamic Background Elements */}
-      <div className="bg-blur"></div>
+      {/* <div className="bg-blur"></div>
       <span className="bg-icon burger">🍔</span>
       <span className="bg-icon pizza">🍕</span>
       <span className="bg-icon fries">🍟</span>
-      <span className="bg-icon drink">🥤</span>
-
-      <nav className="navbar">
-        <div className="logo">
-          <span className="logo-icon">
-            <SiIfood />
-          </span>
-          <span className="logo-text">Standard Fare</span>
-        </div>
-        <div className="nav-actions">
-          <span className="live-status">● 120+ Restaurants Open</span>
-          <button className="login-btn">Login</button>
-        </div>
-      </nav>
+      <span className="bg-icon drink">🥤</span> */}
 
       <div className="hero-inner">
         <div className="hero-text">
