@@ -1,7 +1,10 @@
 import "../style/Hero.css";
 import foodImg from "../image/foodimg.png";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="hero">
       {/* Dynamic Background Elements */}
@@ -13,7 +16,6 @@ const Hero = () => {
 
       <div className="hero-inner">
         <div className="hero-text">
-          {/* <div className="badge">🔥 Hot & Fresh Delivery</div> */}
           <h1>
             Eat better. <br />
             <span>Anytime. Anywhere.</span>
@@ -29,7 +31,9 @@ const Hero = () => {
           </p>
 
           <div className="hero-actions">
-            <button className="primary-btn">Get Started</button>
+            <button className="primary-btn" onClick={()=>{
+              navigate('/signup')
+            }}>Get Started</button>
             <button className="secondary-btn">Order as Guest</button>
           </div>
         </div>

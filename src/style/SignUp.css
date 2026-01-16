@@ -1,4 +1,4 @@
-.login-form-container {
+.signup-form-container {
   height: 100vh;
   background: linear-gradient(135deg, #ffd400 0%, #bf8d04 100%);
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.login-form {
+.signup-form {
   background: #ffffff;
   width: 350px;
   padding: 2rem;
@@ -14,17 +14,17 @@
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.login-header {
+.signup-header {
   /* text-align: center; */
   margin-bottom: 1.5rem;
 }
 
-.login-header h2 {
+.signup-header h2 {
   font-size: 1.6rem;
   color: #333;
 }
 
-.login-header p {
+.signup-header p {
   font-size: 0.9rem;
   color: #777;
 }
@@ -54,7 +54,7 @@
   font-size: 0.95rem;
 }
 
-.form-login-btn {
+.form-signup-btn {
   width: 100%;
   padding: 0.7rem;
   border: none;
@@ -78,4 +78,14 @@
   color: #000;
   font-weight: 500;
   cursor: pointer;
+}
+
+.terms-of-use{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.terms-of-use p{
+    font-size: 12px;
 }

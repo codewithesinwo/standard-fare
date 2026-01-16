@@ -1,7 +1,11 @@
 import React from "react";
 import "../style/Login.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
+
+      const navigate = useNavigate();
+
   return (
     <div className="login-form-container">
       <form className="login-form">
@@ -11,7 +15,7 @@ export default function Login() {
         </div>
 
         <div className="input-group">
-          <span className="input-icon">🐱‍👤</span>
+          <span className="input-icon">🇳🇬</span>
           <input
             type="tel"
             name="phone"
@@ -20,22 +24,19 @@ export default function Login() {
           />
         </div>
 
-        <div className="input-group">
-          <span className="input-icon">🐱‍👤</span>
-          <input
-            type="password"
-            name="password"
-            placeholder="Enter password"
-            required
-          />
-        </div>
-
         <button type="submit" className="form-login-btn">
-          Login
+          Process
         </button>
 
         <p className="signup-text">
-          Don’t have an account? <span>Sign up</span>
+          Don’t have an account?{" "}
+          <span
+            onClick={() => {
+              navigate("/signup");
+            }}
+          >
+            Login
+          </span>
         </p>
       </form>
     </div>

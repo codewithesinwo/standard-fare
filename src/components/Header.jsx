@@ -27,7 +27,7 @@ export default function Header() {
             type="button"
             className="login-btn"
             onClick={() => {
-              navigate('login');
+              navigate('/login');
             }}
           >
             Login

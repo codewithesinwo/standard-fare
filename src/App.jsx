@@ -8,22 +8,12 @@ import Partnerwithus from "./components/Partnerwithus.jsx";
 import SlidePage from "./components/SlidePage.jsx";
 import TopPicks from "./components/TopPicks.jsx";
 import Login from "./components/Login.jsx";
+import SignUp from "./components/SignUp.jsx";
 import WebLayout from "./components/WebLayout.jsx";
 
 function App() {
   return (
     <>
-      {/* <div className="App">
-        <Header />
-        <Hero />
-        <SlidePage />
-        <TopPicks />
-        <HeroSection />
-        <Locations />
-        <Partnerwithus />
-        <Footer />
-        <Login/>
-      </div> */}
       <Routes>
         <Route path="/" element={<WebLayout />}>
           <Route
@@ -42,6 +32,7 @@ function App() {
           />
 
           <Route path="login" element={<Login />} />
+          <Route path="signup" element={<SignUp />} />
         </Route>
       </Routes>
     </>
